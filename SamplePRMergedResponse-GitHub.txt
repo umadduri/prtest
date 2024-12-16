@@ -1,3 +1,6 @@
+URL: https://api.github.com/repos/umadduri/prtest/pulls?state=closed
+
+Response = 
 [
     {
       "url": "https://api.github.com/repos/umadduri/prtest/pulls/1",

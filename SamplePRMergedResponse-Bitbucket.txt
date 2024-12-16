@@ -1,0 +1,184 @@
+URL: https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/pullrequests/?state=MERGED
+
+Response = 
+{
+  "values": [
+    {
+      "comment_count": 0,
+      "task_count": 0,
+      "type": "pullrequest",
+      "id": 1,
+      "title": "PR from BB to Prod",
+      "description": "this is description for PR",
+      "state": "MERGED",
+      "merge_commit": {
+        "hash": "9d7514f53f7a",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/commit/9d7514f53f7a"
+          },
+          "html": {
+            "href": "https://bitbucket.org/cmt-wp/prtest-bitbucket/commits/9d7514f53f7a"
+          }
+        },
+        "type": "commit"
+      },
+      "close_source_branch": false,
+      "closed_by": {
+        "display_name": "Curious Bug",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B5ca1164d-bc45-47ca-ba8b-4a8b2fe0ebda%7D"
+          },
+          "avatar": {
+            "href": "https://secure.gravatar.com/avatar/d1863730a7cb64d4cfd5e1f3f29ba80a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCB-2.png"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B5ca1164d-bc45-47ca-ba8b-4a8b2fe0ebda%7D/"
+          }
+        },
+        "type": "user",
+        "uuid": "{5ca1164d-bc45-47ca-ba8b-4a8b2fe0ebda}",
+        "account_id": "712020:fe1031bc-4843-4863-88c5-d14012e48803",
+        "nickname": "Curious Bug"
+      },
+      "author": {
+        "display_name": "Curious Bug",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B5ca1164d-bc45-47ca-ba8b-4a8b2fe0ebda%7D"
+          },
+          "avatar": {
+            "href": "https://secure.gravatar.com/avatar/d1863730a7cb64d4cfd5e1f3f29ba80a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCB-2.png"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B5ca1164d-bc45-47ca-ba8b-4a8b2fe0ebda%7D/"
+          }
+        },
+        "type": "user",
+        "uuid": "{5ca1164d-bc45-47ca-ba8b-4a8b2fe0ebda}",
+        "account_id": "712020:fe1031bc-4843-4863-88c5-d14012e48803",
+        "nickname": "Curious Bug"
+      },
+      "reason": "",
+      "created_on": "2024-12-16T06:53:28.452548+00:00",
+      "updated_on": "2024-12-16T06:53:39.327819+00:00",
+      "destination": {
+        "branch": {
+          "name": "production"
+        },
+        "commit": {
+          "hash": "afa39a9f1490",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/commit/afa39a9f1490"
+            },
+            "html": {
+              "href": "https://bitbucket.org/cmt-wp/prtest-bitbucket/commits/afa39a9f1490"
+            }
+          },
+          "type": "commit"
+        },
+        "repository": {
+          "type": "repository",
+          "full_name": "cmt-wp/prtest-bitbucket",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket"
+            },
+            "html": {
+              "href": "https://bitbucket.org/cmt-wp/prtest-bitbucket"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7B3968a8b8-4645-48e3-9c32-f3a220b4d677%7D?ts=default"
+            }
+          },
+          "name": "prtest-bitbucket",
+          "uuid": "{3968a8b8-4645-48e3-9c32-f3a220b4d677}"
+        }
+      },
+      "source": {
+        "branch": {
+          "name": "branch_bb_1",
+          "links": {}
+        },
+        "commit": {
+          "hash": "863155004b72",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/commit/863155004b72"
+            },
+            "html": {
+              "href": "https://bitbucket.org/cmt-wp/prtest-bitbucket/commits/863155004b72"
+            }
+          },
+          "type": "commit"
+        },
+        "repository": {
+          "type": "repository",
+          "full_name": "cmt-wp/prtest-bitbucket",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket"
+            },
+            "html": {
+              "href": "https://bitbucket.org/cmt-wp/prtest-bitbucket"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7B3968a8b8-4645-48e3-9c32-f3a220b4d677%7D?ts=default"
+            }
+          },
+          "name": "prtest-bitbucket",
+          "uuid": "{3968a8b8-4645-48e3-9c32-f3a220b4d677}"
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/pullrequests/1"
+        },
+        "html": {
+          "href": "https://bitbucket.org/cmt-wp/prtest-bitbucket/pull-requests/1"
+        },
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/pullrequests/1/commits"
+        },
+        "approve": {
+          "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/pullrequests/1/approve"
+        },
+        "request-changes": {
+          "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/pullrequests/1/request-changes"
+        },
+        "diff": {
+          "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/diff/cmt-wp/prtest-bitbucket:863155004b72%0Dafa39a9f1490?from_pullrequest_id=1&topic=true"
+        },
+        "diffstat": {
+          "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/diffstat/cmt-wp/prtest-bitbucket:863155004b72%0Dafa39a9f1490?from_pullrequest_id=1&topic=true"
+        },
+        "comments": {
+          "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/pullrequests/1/comments"
+        },
+        "activity": {
+          "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/pullrequests/1/activity"
+        },
+        "merge": {
+          "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/pullrequests/1/merge"
+        },
+        "decline": {
+          "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/pullrequests/1/decline"
+        },
+        "statuses": {
+          "href": "https://api.bitbucket.org/2.0/repositories/cmt-wp/prtest-bitbucket/pullrequests/1/statuses"
+        }
+      },
+      "summary": {
+        "type": "rendered",
+        "raw": "this is description for PR",
+        "markup": "markdown",
+        "html": "<p>this is description for PR</p>"
+      }
+    }
+  ],
+  "pagelen": 10,
+  "size": 1,
+  "page": 1
+}
